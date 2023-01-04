@@ -1,0 +1,9 @@
+.navbar{
+    background-color: rgba(175, 69, 69, 0.963);
+    font-size: large;
+    text-decoration: solid;
+}
+.nume{
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(255, 240, 240); }
