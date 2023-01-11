@@ -14,7 +14,7 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-expand-lg bs-dark sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="imagini/mansion.png">Pensiunea Dadster</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,22 +54,34 @@
             <h1>Pensiunea Dadster</h1>
           </div>    
           <div class="carousel-item active">
-            <img src="imagini/1.jpg" class="d-block " alt="...">
+            <div class="ratio" style="--bs-aspect-ratio: 40%;">
+            <img src="imagini/1.jpg" class="d-block w-100 " alt="Pensiunea Dadster din exterior, clădire albă cu acoperiș vișiniu, are un lac în față și este înconjurată de pădure, copaci și brazi, clădirea are 4 etaje">
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="imagini/2.jpg" class="d-block w-100" alt="...">
+            <div class="ratio" style="--bs-aspect-ratio: 40%;">
+              <img src="imagini/2.jpg" class="d-block w-100 " alt="Zona de mese a pensiunii cu mese pătrate din lemn, une perete este alb, unul negru și unul din lemn, pe perete se află un tablou cu flori și rama tot de lemn ">
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="imagini/3.jpg" class="d-block w-100" alt="...">
+            <div class="ratio" style="--bs-aspect-ratio: 40%;">
+              <img src="imagini/3.jpg" class="d-block w-100 " alt="Mic dejun la sala în restaurantul pensiunii, un bufet suedez cu șuncă salam și alte mezeluri, fructe și brânzeturi, ouă">
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="imagini/4.jpg" class="d-block w-100" alt="...">
+            <div class="ratio" style="--bs-aspect-ratio: 40%;">
+              <img src="imagini/4.jpg" class="d-block w-100 " alt="O cameră dublă a pensiunii, cu un pat matrimonial în mijloc, ce are așternuturi albastre. Camera are ieșire la balcon, dulapuri mari albe și o noptieră lângă pat">
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="imagini/5.jpg" class="d-block w-100" alt="...">
+            <div class="ratio" style="--bs-aspect-ratio: 40%;">
+              <img src="imagini/5.jpg" class="d-block w-100 " alt="Mâinile unei femei care aranjează prosoape pe un pat cu așternuturi albe.">
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="imagini/6.jpg" class="d-block w-100" alt="...">
+            <div class="ratio" style="--bs-aspect-ratio: 40%;">
+              <img src="imagini/6.jpg" class="d-block w-100 " alt="Barul pensiunii realizat din lemn, cu pereți kaki, grinde din lemn, în spatele barului se află o vitrină cu băuturi alcoolice, una cu ceaiuri, un espresor și o vitrină cu pahare">
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -89,15 +101,17 @@
             </div>  
         </div>
           <div class="row">
-            <div class="col-md-6 col-sm-8">
+            <div class="col-md-8">
                 <p>
                   Pensiunea Dadster este localizată în comuna Bran a județului Brașov. La 10 minute de mers pe jos față de vestitul castel al lui Dracula, pensiunea este un loc potrivit tuturor vârstelor, organizând tururi ghidate, activități dinamice pentru cei mici, board-games nights și seri de karaoke. La doar 31 de km distanță față de Brașov, Branul este una dintre cele mai vizitate comune, pensiunea găzduind lunar peste 150 de clienți.
                 </p>
+                <p>
+                  Printre obiectivele turistice pe care le puteți vizita în apropierea Branului se enumeră: Castelul Bran și Casa Groazei, Târgul de Suveniruri, Dealul Balaban, Mănăstirea Șimon, Râșnov împreună cu cetatea sa, Brașovul cu numeroasele sale atracții, Peștera Liliecilor.
+                </p>
             </div>
 
-            <div class="col-md-6 col-sm-4"> 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44737.36632939177!2d25.339144510679485!3d45.50835955143215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b347e54ce55873%3A0xb2a3745ffef5cc10!2sBran%20507025!5e0!3m2!1sro!2sro!4v1672613898725!5m2!1sro!2sro" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
+            <div class="col-md-4"> 
+              <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d11182.62837364353!2d25.369293140717023!3d45.51698106236227!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sro!2sro!4v1673398269457!5m2!1sro!2sro" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
             </div>
           </div>
 
@@ -109,36 +123,92 @@
             <h2 id="servicii">Servicii</h2>
           </div>
         </div>
+          <!-- aici incepe al doilea div -->
         <div class="row">
-          <div class="col-md-4">
-            <div id="list-example" class="list-group">
-              <a class="list-group-item list-group-item-action" href="#cazare">Cazare</a>
-              <a class="list-group-item list-group-item-action" href="#restaurant">Restaurant</a>
-              <a class="list-group-item list-group-item-action" href="#relaxare">Relaxare</a>
-              <a class="list-group-item list-group-item-action" href="#activitati">Activitati</a>
+          <div class="col-8">
+            <!-- aici incepe acordeonul -->
+            <div class="accordion bg-secondary" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Cazare
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <p>Pensiunea vă pune la dispoziție 31 de locuri de cazare dispuse astfel:</p>
+                     <ul>
+                        <li>5 camere triple, la prețul de 180ron/noapte</li>
+                        <li>4 camere duble cu paturi matrimoniale, la prețul de 150ron/noapte</li>
+                        <li>2 camere de 4 persoane, cu doua paturi duble, la prețul de 200ron/noapte</li>
+                        <li>fiecare cameră dispune de baie proprie</li> 
+                      </ul>
+                    <p>Toate camerele sunt prevăzute cu baie proprie, aer condiționat, acces la wi-fi și un televizor inteligent conectat la Netflix. Nu trebuie să vă faceți griji de obiectele uzuale pentru că fiecare cameră dispune de tot ce aveți nevoie: prosoape, feon, fier de călcat, inclusiv produse de îngrijire personală. Oaspeții au la dispoziție o bucătărie comună complet utilată și o zonă de luat masa, lângă restaurantul nostru. Proprietatea are terasă cu ciubăr și piscină interioară încălzită.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Restaurant
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <p>Meniul restaurantului se mulează pe toate gusturile, fie că poftiți preparate tradiționale, fie că ați prefera ceva mai exotic. Micul dejun sub formă de bufet, se poate servi în fiecare dimineață între orele 7 și 12. Vă punem la dispoziție și un bar, unde se pot găsi răcoritoare, băuturi alcoolice și cafea. Avem opțiuni și pentru persoanele vegane, vegetariene și pentru cele care țin post. Mâncarea este proaspătă, ingredientele fiind de înaltă calitate, aduse de la producători locali.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Relaxare
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <p>Dacă simțiți nevoia unui moment de relaxare, piscina noastră  interioară este deschisă non-stop. Totdată, vă veți putea bucura și    de  o baie în ciubăr, unde accesul se face pe baza unei rezervări. 
+                    Pentru rezervări, vă așteptăm la recepția pensiunii. Dacă închiriați toată pensiunea, ciubărul vă este la dispoziție oricând doriți. Nu mai este necesară rezervarea.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Activități
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    <p>Tururile ghidate sunt organizate de luni până joi. Plecarea se face la   ora 12 și primul obiectiv turistic vizitat este Castelul Bran. 
+                    În cazul în care doriți să vă bucurați de un moment de liniște, vă puteți înscrie copiii la una din activitățile noastre. Acestea se desfășoară în proximitatea pensiunii, având posibilitatea de a-i verifica oricând simțiți nevoia. 
+                    În fiecare seară de miercuri, începând cu ora 19, organizăm Karaoke Night în restaurantul nostru. Vă așteptăm să ne distrăm împreună, fie că sunteți cântăreți profesioniști sau doar persoane ce caută să se bucure de viață!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- aici se termina acordeonul -->
+          </div>
+          <div class="col-sm-1 col-md-2">
+            <div class="imagigi">
+              <img src="imagini/cazare.jpg">
+              <img src="imagini/restaurant.jpg">
             </div>
           </div>
-          <div class="col-md-8">
-            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-              <h3 id="cazare">Cazare</h3>
-              <p>Pensiunea vă pune la dispoziție 31 de locuri de cazare dispuse astfel:
+          <div class="col-sm-1 col-md-2">
+            <div class="imagigi">
+              <img src="imagini/relaxare.jpg">
+              <img src="imagini/activitati.jpg">
+            </div>
+          </div>
 
-                <ul>
-                 <li>5 camere triple, la prețul de 180ron/noapte</li>
-                 <li>4 camere duble cu paturi matrimoniale, la prețul de 150ron/noapte</li>
-                 <li>2 camere de 4 persoane, cu doua paturi duble, la prețul de 200ron/noapte</li>
-                 <li>fiecare cameră dispune de baie proprie</li> 
-                </ul>
-                Toate camerele sunt prevăzute cu baie proprie, aer condiționat, acces la wi-fi și un televizor inteligent conectat la Netflix. Nu trebuie să vă faceți griji de obiectele uzuale pentru că fiecare cameră dispune de tot ce aveți nevoie: prosoape, feon, fier de călcat, inclusiv produse de îngrijire personală. Oaspeții au la dispoziție o bucătărie comună complet utilată și o zonă de luat masa, lângă restaurantul nostru. Proprietatea are terasă cu ciubăr și piscină interioară încălzită.</p>
-              <h3 id="restaurant">Restaurant</h3>
-              <p>Meniul restaurantului se mulează pe toate gusturile, fie că poftiți preparate tradiționale, fie că ați prefera ceva mai exotic. Micul dejun sub formă de bufet, se poate servi în fiecare dimineață între orele 7 și 12. Vă punem la dispoziție și un bar, unde se pot găsi răcoritoare, băuturi alcoolice și cafea.</p>
-              <h3 id="relaxare">Relaxare</h3>
-              <p>Dacă simțiți nevoia unui moment de relaxare, piscina noastră interioară este deschisă non-stop. Totdată, vă veți putea bucura și de o baie în ciubăr, unde accesul se face pe baza unei rezervări. </p>
-              <h3 id="activitati">Activități</h3>
-              <p>Tururile ghidate sunt organizate de luni până joi. Plecarea se face la ora 12 și primul obiectiv turistic vizitat este Castelul Bran. În cazul în care doriți să vă bucurați de un moment de liniște, vă puteți înscrie copiii la una din activitățile noastre. Acestea se desfășoară în proximitatea pensiunii, având posibilitatea de a-i verifica oricând simțiți nevoia.</p>
-            </div>
           </div>
-        </div>
+        </div> 
+        <!-- aici se termina al doilea div -->
+
+
+      </div>
 
 
         <div class="container">
@@ -149,7 +219,7 @@
             <div class="row">
             <div class="col-md-6">
               <div class="card" >
-                <img src="imagini/da.jpg" class="card-img-top" alt="...">
+                <img src="imagini/da.jpg" class="card-img-top" alt="Cameră la mansardă cu două paturi duble, perete realizat din lemn, la fel și patul, cu două lămpi deasupra patului și noptieră de lemn lângă el">
                 <div class="card-body">
                   <h3>Cameră de 4 persoane</h3>
                   <p class="card-text">Pensiunea dispune de 2 astfel de camere. Prețul pe noapte este de 200 de ron.</p>
@@ -159,7 +229,7 @@
   
             <div class="col-md-6">
               <div class="card" >
-                <img src="imagini/tripla.jpg" class="card-img-top" alt="...">
+                <img src="imagini/tripla.jpg" class="card-img-top" alt="Cameră cu un pat dublu și unul single, realizate din lemn, cu așternuturi albe, pereții camerei sunt de culoare albastră, lămpi deasupra paturilor și noptieră între">
                 <div class="card-body">
                   <h3>Cameră triplă</h3>
                   <p class="card-text">Pensiunea dispune de 5 astfel de camere. Prețul pe noapte este de 180 de ron.</p>
@@ -171,7 +241,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="card">
-                <img src="imagini/dubla.jpg" class="card-img-top" alt="...">
+                <img src="imagini/dubla.jpg" class="card-img-top" alt="Cameră cu pat dublu, cu așternuturi albe, pereți albi, cu două lămi deasupra patului, perdea simplă, de culoare albă, draperie cu imprimeu de leopard, lângă pat este o noptieră de lemn">
                 <div class="card-body">
                   <h3>Cameră dublă</h3>
                   <p class="card-text">Pensiunea dispune de 4 astfel de camere. Prețul pe noapte este de 150 de ron.</p>
@@ -181,7 +251,7 @@
   
             <div class="col-md-6">
               <div class="card">
-                <img src="imagini/baie.jpg" class="card-img-top" alt="...">
+                <img src="imagini/single.jpg" class="card-img-top" alt="Cameră de o persoană, realizată din lemn, pat cu așternuturi bleumarin, o fereastră în mijlocul camerei, și un scaun în partea stângă">
                 <div class="card-body">
                   <h3>Cameră single <span class="badge bg-secondary">Nou!</span></h3>
                   <p class="card-text"> Începând cu luna februarie 2023, vom avea 3 camere single. Prețul pe noapte va fi 100 de ron.</p>
@@ -196,21 +266,91 @@
 
       <div class="container">
         <div class="row">
-         <h2 id="contact">Contact</h2>
+          <div class="col-12">
+           <h2 id="contact">Contact</h2>
+           <p>Pentru rezervări sau alte informații legate de pensiune, acestea sunt datele noastre de contact:</p>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-6">
+
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagini/tel.png" class="img-thumbnail rounded-start" alt="icon pentru telefon">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Telefon</h3>
+                    <p class="card-text">
+                      <ul>
+                        <li>0722 222 222</li>
+                        <li>0755 555 555</li>
+                        <li>0770 000 000</li>
+                        <li>0368 888 888</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          
+          <div class="col-6">
+
+            <div class="card mb-3" >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="imagini/email.png" class="img-thumbnail rounded-start" alt="icon pentru email">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title">Email</h3>
+                    <p class="card-text">
+                      <ul>
+                        <li>pensiuneadadster@yahoo.com</li>
+                        <li>pensiuneadadster@gmail.com</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+            
+        </div>
+
+
       </div>
 
+      <div class="footer-container">
+        <div class="brand">
+          <h2>Pensiunea Dadster</h2>
+        </div>
+        <p>Pentru rețelele de socializare:</p>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://www.facebook.com"><img src="./imagini/fb.png"></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.tiktok.com"><img src="./imagini/tik.png"></a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.instagram.com"><img src="./imagini/insta.png"></a>
+          </div>
+        </div>
+        <p>by Palamaru Adriana</p>
+        <div class="text-center">
+          <div class="text-muted pb-3">© 2022 Dadster, SRL</div>
+      </div>
+      </div>
    
-      
-
-
-
-
-
-
 
 
 
   </body>
 </html>
-

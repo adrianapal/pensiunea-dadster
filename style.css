@@ -1,9 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+
 .navbar{
-    background-color: rgba(175, 69, 69, 0.963);
+    background-color: rgb(218, 134, 131);
     font-size: large;
-    text-decoration: solid;
+    font-family: 'Playfair Display';
 }
 .nume{
     position: absolute;
-    z-index: 2;
-    background-color: rgb(255, 240, 240); }
+    z-index: 7;
+    background-color: rgb(218, 134, 131);
+    margin-top: 5rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h1, h2, h3{
+   font-family: 'Playfair Display';
+}
+h2{
+    margin: 2rem;
+}
+.ratio img {
+    object-fit: cover; }
+
+ul{
+    list-style-type: circle;
+}
+
+.img-thumbnail{
+    background-color: rgb(218, 134, 131);
+    border-radius: 10px;}
+
+ .imagigi img{
+    width: 10rem;
+    margin: 2%;
+    border-radius: 20%;
+    border:solid rgb(218, 134, 131);
+ }
+
+    /* Footer Section*/
+.footer-container{
+	min-height: 100px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+    background: rgb(218, 134, 131);
+}
+.footer-container h2{
+    text-align: center;
+	font-size: 3rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.footer-container .social-icon{
+	display: flex;
+	margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.footer-container .social-item{
+	margin: 0 5px;
+    text-align: center;
+}
+.footer-container .social-item img{
+    max-width: 40px; 
+}
+
+.footer-container p{
+    text-align: center;
+	font-size: 1.4rem;
+}
+/*  Sfarsit Footer Section*/
