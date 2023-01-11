@@ -12,9 +12,11 @@
     background-color: rgb(218, 134, 131);
     margin-top: 5rem;
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
 }
-
+ #title{
+    font-size: 30px;
+ }
 h1, h2, h3{
    font-family: 'Playfair Display';
 }
@@ -74,3 +76,4 @@ ul{
 	font-size: 1.4rem;
 }
 /*  Sfarsit Footer Section*/
+
