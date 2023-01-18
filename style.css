@@ -17,6 +17,7 @@
  #title{
     font-size: 30px;
  }
+ 
 h1, h2, h3{
    font-family: 'Playfair Display';
 }
@@ -36,14 +37,11 @@ ul{
     
 }
 
- .imagigi img{
-    display: flex;
-    flex-direction: column;
-    width: 10rem;
-    
-    border-radius: 20%;
+ .imgigi img{
+    margin-top: 5px;
+  border-radius: 20%;
     border:solid rgb(218, 134, 131);
-    align-items: center;
+    
 
  }
  .card-body{
