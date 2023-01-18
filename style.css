@@ -44,6 +44,10 @@ ul{
     
 
  }
+
+ .container .card{
+    margin: 5px;
+ }
  .card-body{
    max-height:10rem;
  }
